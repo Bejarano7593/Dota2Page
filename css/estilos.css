@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+body {
+    background: url(../img/dota2.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/*TITULO*/
+
+h1 {
+    color: orangered;
+    text-shadow: 1px 2px black;
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+
+/*NAVEGACION*/
+
+#btnGroupDrop1 {
+    font-size: 40px;
+    color: darkslategrey;
+    text-shadow: 1px 2px black;
+    border-bottom: solid grey;
+    border-top: solid grey;
+    border-radius: 20px;
+}
+
+#btnGroupDrop1:hover {
+    color: orangered;
+}
+
+
+/*SUB-NAVEGACION*/
+
+.header ul {
+    background: transparent;
+    border: none;
+}
+
+.header .dropdown-item {
+    color: crimson;
+    text-shadow: 1px 1px black;
+    background: transparent;
+    font-size: 30px;
+}
+
+.header .dropdown-item:hover {
+    color: #fff;
+}
+
+
+/*Videos de Inicio*/
+
+.move {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.move h2 {
+    font-size: 40px;
+    color: blanchedalmond;
+    text-shadow: 1px 2px black;
+    text-align: initial;
+}
+
+video {
+    position: flex;
+    padding: auto;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .small {
+    position: absolute;
+    top: 60px;
+    left: 48%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .small li:hover {
+    opacity: 1;
+}
+
+section .small li {
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+    background: transparent;
+    padding: 3px 3px;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.small li:hover {
+    background: #fff;
+}
+
+li img {
+    width: 70px;
+    height: 60px;
+    transition: 0.5s;
+}
+
+li img:hover {
+    width: 200px;
+    height: 150px;
+    transition: 0.5s;
+}
+
+
+/*contenedor de la grid*/
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    gap: auto;
+    background: linear-gradient( 70deg, transparent, hsl(0, 1%, 22%));
+    color: gray;
+    font-size: 20px;
+}
+
+
+/* parrafo*/
+
+.container .grid-parrafo {
+    width: 100%;
+    height: 100%;
+    right: 20px;
+    padding: 50px 35px 0 0;
+    text-align: start;
+}
+
+.container p {
+    text-align: start;
+    width: auto;
+    height: auto;
+}
+
+
+/*CONTENEDOR DE SLIDER*/
+
+.container-slider {
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    margin: 0%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+/*IMAGENES DE SLIDER*/
+
+.container-slider img {
+    width: 38em;
+    height: 25em;
+}
+
+.container-slider button {
+    background: transparent;
+    border: none;
+    opacity: 0.4;
+}
+
+
+/*CARD*/
+
+.card {
+    background: linear-gradient( 180deg, transparent, rgb(128, 125, 125));
+    color: grey;
+    font-size: larger;
+}
+
+.card:hover {
+    color: black;
+}
+
+.card h5 {
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px grey;
+    border-bottom: solid grey;
+    border-radius: 20px;
+}
+
+
+/*CARD TEXT*/
+
+.card-header .nav-link {
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: solid gray;
+    border-radius: 5px;
+}
+
+.card-header .nav-link:hover {
+    color: orangered;
+}
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    background: black;
+    box-sizing: border-box;
+}
+
+footer p {
+    padding: auto;
+    text-align: center;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 20% 60%;
+}
+
+.grid-footer img {
+    width: 3em;
+    height: 2em;
+}
